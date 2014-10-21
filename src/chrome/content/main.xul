@@ -5,5 +5,5 @@
 <!DOCTYPE overlay SYSTEM "chrome://cloud-to-butt/locale/cv-pls.dtd">
 
 <overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="text/javascript" src="chrome://cloud-to-butt/content/cloud-to-butt.js" />
+  <script type="text/javascript" src="chrome://ebola-to-Zombie/content/ebola-to-zombie.js" />
 </overlay>
