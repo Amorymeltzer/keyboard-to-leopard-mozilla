@@ -3,15 +3,15 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>horse-to-force@github.com</em:id>
+    <em:id>force-to-horse@github.com</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
-    <em:name>horse-to-force</em:name>
-    <em:description>Replaces the text 'horse' with 'force'.</em:description>
+    <em:name>force-to-horse</em:name>
+    <em:description>Replaces the text 'force' with 'horse'.</em:description>
     <em:creator>Amory Meltzer forked from code by Steven Frank and Ioan Loosley</em:creator>
     <em:developer>Amory Meltzer</em:developer>
-    <em:homepageURL>https://github.com/Amorymeltzer/horse-to-force-mozilla//em:homepageURL>
+    <em:homepageURL>https://github.com/Amorymeltzer/force-to-horse-mozilla/</em:homepageURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>

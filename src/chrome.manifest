@@ -1,3 +1,3 @@
-content	horse-to-force	chrome/content/	contentaccessible=yes
+content	force-to-horse	chrome/content/	contentaccessible=yes
 
-overlay	chrome://browser/content/browser.xul	chrome://horse-to-force/content/main.xul
+overlay	chrome://browser/content/browser.xul	chrome://force-to-horse/content/main.xul

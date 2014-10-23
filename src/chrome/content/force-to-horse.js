@@ -12,18 +12,18 @@
             case 1:  // Element
             case 9:  // Document
             case 11: // Document fragment
-                child = node.firstChild;
-                while ( child )
-                {
-                    next = child.nextSibling;
-                    walk(child);
-                    child = next;
-                }
-                break;
+            child = node.firstChild;
+            while ( child )
+            {
+                next = child.nextSibling;
+                walk(child);
+                child = next;
+            }
+            break;
 
             case 3: // Text node
-                handleText(node);
-                break;
+            handleText(node);
+            break;
         }
     }
 
@@ -31,10 +31,12 @@
     {
         var v = textNode.nodeValue;
 
-	v = v.replace(/\bHorse\b/g, "Force");
-	    v = v.replace(/\bebola\b/g, "force");
-	    v = v.replace(/\bEBOLA\b/g, "ZOMBIE VIRUS");
-	    v = v.replace(/\bCDC\b/g, "Incompitent agency");
+	v = v.replace(/\bForce\b/g, "Horse");
+	v = v.replace(/\force\b/g, "horse");
+	v = v.replace(/\bFORCE\b/g, "HORSE");
+	v = v.replace(/\bBattalion\b/g, "Stallion");
+	v = v.replace(/\bbattalion\b/g, "stallion");
+	v = v.replace(/\bBATTALION\b/g, "STALLION");
 
         textNode.nodeValue = v;
     }
