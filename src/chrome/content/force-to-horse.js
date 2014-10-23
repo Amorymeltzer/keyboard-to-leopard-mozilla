@@ -40,6 +40,13 @@
 	    return h + "orse";
 	});
 
+	v = v.replace(/\b(F|f)orcing/g, function(match, p1, offset, string) {
+	    // f + 2 = h
+	    // b + 17 = s
+	    h = String.fromCharCode(p1.charCodeAt(0) + 2);
+	    return h + "orsing";
+	});
+
 	// Italian Battalion Stallion
 	v = v.replace(/\b(B|b)attalion/g, function(match, p1, offset, string) {
 	    // b + 17 = s
