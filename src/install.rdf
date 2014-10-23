@@ -3,15 +3,15 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>ebola-to-zombie@github.com</em:id>
+    <em:id>horse-to-force@github.com</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
-    <em:name>ebola-to-zombie</em:name>
-    <em:description>Replaces the text 'Ebola' with 'zombie'.</em:description>
-    <em:creator>Ioan Loosley forked from Steven Frank's code</em:creator>
-    <em:developer>Ioan Loosley</em:developer>
-    <em:homepageURL>https://github.com/ioangogo/ebola-to-Zombie-mozilla//em:homepageURL>
+    <em:name>horse-to-force</em:name>
+    <em:description>Replaces the text 'horse' with 'force'.</em:description>
+    <em:creator>Amory Meltzer forked from code by Steven Frank and Ioan Loosley</em:creator>
+    <em:developer>Amory Meltzer</em:developer>
+    <em:homepageURL>https://github.com/Amorymeltzer/horse-to-force-mozilla//em:homepageURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>

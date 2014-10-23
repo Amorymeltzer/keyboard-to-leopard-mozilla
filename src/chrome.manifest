@@ -1,3 +1,3 @@
-content	ebola-to-zombie	chrome/content/	contentaccessible=yes
+content	horse-to-force	chrome/content/	contentaccessible=yes
 
-overlay	chrome://browser/content/browser.xul	chrome://ebola-to-zombie/content/main.xul
+overlay	chrome://browser/content/browser.xul	chrome://horse-to-force/content/main.xul
