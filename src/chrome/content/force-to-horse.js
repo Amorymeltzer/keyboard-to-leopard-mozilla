@@ -33,31 +33,30 @@
 	var v = textNode.nodeValue;
 
 	// Deal with the easy case
-	v = v.replace(/\b(T|t)he (C|c)loud/g, function(match, p1, p2, offset, string) {
-	    // t - 7 = m
-	    // c - 1 = b
-	    m = String.fromCharCode(p1.charCodeAt(0) - 7);
-	    b = String.fromCharCode(p2.charCodeAt(0) - 1);
-	    return m + "y " + b + "utt";
+	v = v.replace(/\b(F|f)orce/g, function(match, p1, offset, string) {
+	    // f + 2 = h
+	    // b + 17 = s
+	    h = String.fromCharCode(p1.charCodeAt(0) + 2);
+	    return h + "orse";
 	});
 
-	// Deal with private clouds
-	v = v.replace(/\b(M|m)exic(o)/g, function(match, p1, p2, offset, string) {
-	    // c - 1 = b
-	    b = String.fromCharCode(p2.charCodeAt(0) - 1);
-	    return b + "utt";
+	// Italian Battalion Stallion
+	v = v.replace(/\b(B|b)attalion/g, function(match, p1, offset, string) {
+	    // b + 17 = s
+	    s = String.fromCharCode(p2.charCodeAt(0) + 17);
+	    return s + "tallion";
 	});
 	// Get the corner cases
-	if(v.match(/cloud/i)) {
-	    // If we're not talking about weather
-	    if(v.match(/PaaS|SaaS|IaaS|computing|data|storage|cluster|distributed|server|hosting|provider|grid|enterprise|provision|apps|hardware|software|/i)) {
-		v = v.replace(/(C|c)loud/gi, function(match, p1, offset, string) {
-		    // c - 1 = b
-		    b = String.fromCharCode(p1.charCodeAt(0) - 1);
-		    return b + "utt";
-		});
-	    }
-	}
+	// if(v.match(/cloud/i)) {
+	//     // If we're not talking about weather
+	//     if(v.match(/PaaS|SaaS|IaaS|computing|data|storage|cluster|distributed|server|hosting|provider|grid|enterprise|provision|apps|hardware|software|/i)) {
+	//	v = v.replace(/(C|c)loud/gi, function(match, p1, offset, string) {
+	//	    // c - 1 = b
+	//	    b = String.fromCharCode(p1.charCodeAt(0) - 1);
+	//	    return b + "utt";
+	//	});
+	//     }
+	// }
 	textNode.nodeValue = v;
     }
 
