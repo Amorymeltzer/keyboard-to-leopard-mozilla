@@ -2,8 +2,8 @@
 
 <?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
 
-<!DOCTYPE overlay SYSTEM "chrome://force-to-horse/locale/cv-pls.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://keyboard-to-leopard/locale/cv-pls.dtd">
 
 <overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="text/javascript" src="chrome://force-to-horse/content/force-to-horse.js" />
+  <script type="text/javascript" src="chrome://keyboard-to-leopard/content/keyboard-to-leopard.js" />
 </overlay>

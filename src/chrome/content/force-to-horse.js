@@ -33,26 +33,20 @@
 	var v = textNode.nodeValue;
 
 	// Deal with the easy case
-	v = v.replace(/\b(F|f)orce/g, function(match, p1, offset, string) {
+	v = v.replace(/\b(K|k)eyboard/g, function(match, p1, offset, string) {
 	    // f + 2 = h
 	    // b + 17 = s
-	    h = String.fromCharCode(p1.charCodeAt(0) + 2);
-	    return h + "orse";
+	    l = String.fromCharCode(p1.charCodeAt(0) + 1);
+	    return l + "eopard";
 	});
 
-	v = v.replace(/\b(F|f)orcing/g, function(match, p1, offset, string) {
+	v = v.replace(/\b(K)EYBOARD/g, function(match, p1, offset, string) {
 	    // f + 2 = h
 	    // b + 17 = s
-	    h = String.fromCharCode(p1.charCodeAt(0) + 2);
-	    return h + "orsing";
+	    h = String.fromCharCode(p1.charCodeAt(0) + 1);
+	    return h + "EOPARD";
 	});
 
-	// Italian Battalion Stallion
-	v = v.replace(/\b(B|b)attalion/g, function(match, p1, offset, string) {
-	    // b + 17 = s
-	    s = String.fromCharCode(p2.charCodeAt(0) + 17);
-	    return s + "tallion";
-	});
 	// Get the corner cases
 	// if(v.match(/cloud/i)) {
 	//     // If we're not talking about weather
